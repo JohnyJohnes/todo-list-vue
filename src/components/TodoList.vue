@@ -70,51 +70,69 @@ import TodoListItem from './TodoListItem';
 </script>
 
 <style scoped>
+
+
     input{
-        border: 1px solid black;
-        background: lightgray;
+        border: 1px solid #05386b;
+        background: #8ee4af;
+        border-radius: 15px;
         padding: 5px 10px;
         outline: none;
-        width: 500px;
+        width: 470px;
         height: 50px;
         font-size: 2.5em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
     }
     
     input:focus{
-        border: 1px solid black;
-        background: lightgreen;
+        border: 1px solid #05386b;
+        background: #edf5e1;
+        border-radius: 20px;
+        text-align: center;
         padding: 5px 10px;
         outline: none;
         width: 500px;
         height: 50px;
         font-size: 2.5em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     h1{
-        font-size: 3em;
+        font-size: 5em;
+        color: #05386b;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     .addBtn{
-        background: white;
+        background: #5cdb95;
         outline: none;
-        font-size: 1em;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 
     button{
-        border: 2px solid black;
-        background: white;
+        margin-top: 5px;
+        border: 2px solid #05386b;
+        background: #05386b;
+        color: #edf5e1;
+        border-radius: 10px;
         outline: none;
-        font-size: 1em;
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     
     button:active{
-        border: 2px solid black;
-        background: lightblue;
+        border: 2px solid #edf5e1;
+        border-radius: 20px;
+        background: #379683;
+        color: #edf5e1;
         outline: none;
-        font-size: 1em;
+        font-size: 2em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     ul{
