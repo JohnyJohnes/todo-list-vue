@@ -3,7 +3,7 @@
         <div class="row">
             <button class="saveBtn" v-if="isEditting" @click="callSave">-Save-</button>
             <button class="editBtn" v-else @click="callEdit">-Edit-</button>
-            <input class v-if="isEditting" type="text" v-model="item.text">
+            <input class @keyup.enter="callSave" v-if="isEditting" type="text" v-model="item.text">
             <div class="todoText" v-if="!isEditting" @click="callDone" :class="{done: item.done}">{{ item.text }}</div>
             <button class="removeBtn" @click="callRemove">-X-</button>
         </div>
