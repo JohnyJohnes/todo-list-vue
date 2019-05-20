@@ -44,7 +44,7 @@ import TodoListItem from './TodoListItem';
 
                 const newItem = {
                     done: false,
-                    text: this.inputText
+                    text: this.inputText,
                 }
                 this.items.push(newItem)
                 this.updateStorage()
@@ -64,7 +64,14 @@ import TodoListItem from './TodoListItem';
             editItemText(index, item){
                 this.items[index] = item;
                 this.updateStorage()
-            }
+            },
+            
+            // getCurrentTime(){
+            //     var today = new Date();
+            //     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            //     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            //     return date+' '+time;
+            // }
         }
     }
 </script>
