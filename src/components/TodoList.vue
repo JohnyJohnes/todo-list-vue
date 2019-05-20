@@ -117,6 +117,7 @@ import TodoListItem from './TodoListItem';
         outline: none;
         margin-left: 50%;
         transform: translateX(-50%);
+        margin-bottom: 50px;
     }
 
     button{
@@ -124,6 +125,18 @@ import TodoListItem from './TodoListItem';
         border: 2px solid #05386b;
         background: #05386b;
         color: #edf5e1;
+        border-radius: 10px;
+        outline: none;
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    button:hover{
+        margin-top: 5px;
+        border: 2px solid #05386b;
+        background:#edf5e1;
+        color:#05386b;
         border-radius: 10px;
         outline: none;
         font-size: 2em;
